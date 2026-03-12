@@ -6,7 +6,7 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
-    tapping-term-ms = <100>; // This is the value already set by default
+    tapping-term-ms = <150>; // This is the value already set by default
 };
 
 / {
@@ -55,7 +55,7 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         lay_mou: layer_mouse_tap {
@@ -63,7 +63,7 @@
             label = "LAYER_MOUSE_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&mo>, <&mkp>;
         };
     };
