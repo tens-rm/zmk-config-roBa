@@ -84,7 +84,7 @@
         NUM_SC_SYM {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0
-&kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &kp LANG2     &trans      &trans  &kp TILDE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL
+&kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &kp LANG2     &trans      &trans  &kp GRAVE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL
 &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LANG1     &trans      &trans  &kp BACKSLASH  &kp SQT           &kp COMMA          &kp PERIOD    &kp SLASH
 &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                            &kp F12
             >;
@@ -112,7 +112,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans           &trans    &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MCLK        &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &lay_mou 5 MCLK  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans           &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                       &trans
